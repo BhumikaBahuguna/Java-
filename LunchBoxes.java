@@ -7,7 +7,7 @@ public class LunchBoxes {
         while (T-- > 0) {
             System.out.println("Enter total lunch boxes and number of schools: ");
             int N = sc.nextInt(); 
-            int M = sc.nextInt();  
+            int M = sc.nextInt();
             int[] requirements = new int[M];
             for (int i = 0; i < M; i++) {
                 requirements[i] = sc.nextInt();
